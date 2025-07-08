@@ -17,7 +17,7 @@ module.exports = withNativeFederation({
       requiredVersion: "auto",
     }),
   },
-
+  sharedMappings: ["auth"],
   skip: [
     "rxjs/ajax",
     "rxjs/fetch",
